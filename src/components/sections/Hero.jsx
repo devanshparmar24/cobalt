@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="absolute w-1 h-1 bg-white rounded-full top-1/4 left-1/3" />
         <div className="absolute w-1 h-1 bg-white rounded-full top-1/3 left-2/3" />
         <div className="absolute w-1 h-1 bg-white rounded-full top-1/2 left-1/4" />
-        <div className="absolute w-1 h-1 bg-white rounded-full top-2/3 left-1/2" />
+        <div className="absolute w-1 h-1 bg-white rounded-full top-2/3 left-1/5" />
         <div className="absolute w-1 h-1 bg-white rounded-full top-3/4 left-3/4" />
       </div>
 
