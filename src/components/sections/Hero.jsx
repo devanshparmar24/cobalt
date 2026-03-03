@@ -6,10 +6,11 @@ import Button from "../ui/Button";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#050B14]">
-      
-      {/* Top Radial Glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_#1B2A44_0%,_#050B14_65%)]" />
 
+      {/* Base */}
+<div className="absolute inset-0 bg-[#050B14]" />
+
+<div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(94,176,239,0.45)_3%,_rgba(9,9,9,0)_40%)]" />
       {/* Star particles */}
       <div className="absolute inset-0 opacity-40">
         <div className="absolute w-1 h-1 bg-white rounded-full top-1/4 left-1/3" />
@@ -28,7 +29,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className=" text-[72px] leading-[77px] tracking-[-1.8px] font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-[#717A86]"
->
+        >
           Unleash the power of
           <br />
           intuitive finance
