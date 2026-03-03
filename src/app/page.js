@@ -1,11 +1,12 @@
 import Hero from "@/components/sections/Hero";
-import Features from "@/components/sections/Features";
-import Testimonials from "@/components/sections/Testimonials";
+import Testimonial from "@/components/sections/Testimonial";
 import Pricing from "@/components/sections/Pricing";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
 import Navbar from "@/components/sections/Navbar";
 import DashboardPreview from "@/components/sections/DashboardPreview";
+import Feature1 from "@/components/sections/Feature1";
+import Feature2 from "@/components/sections/Feature2";
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <DashboardPreview />
-      <Features />
-      <Testimonials />
+      <Feature1 />
+      <Feature2 />
+      <Testimonial />
       <Pricing />
       <Contact />
       <Footer />

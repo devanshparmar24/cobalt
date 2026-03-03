@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Features() {
+export default function Feature1() {
   return (
     <section className="bg-[#050B14] py-32">
       <div className="max-w-6xl mx-auto px-6">

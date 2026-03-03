@@ -1,13 +1,13 @@
 export default function Footer() {
   return (
-    <footer className="relative bg-[#050B14] pb-20">
+    <footer className="relative bg-[#050B14] pb-20 ">
 
       {/* Divider Line */}
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="border-t border-white/10" />
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 mt-10">
+      <div className="max-w-7xl mx-auto px-6 mt-10 mb-[129px]">
 
         {/* Top Row */}
         <div className="flex flex-col md:flex-row justify-between gap-8">
@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
 
           {/* Social Icons */}
-          <div className="flex items-start gap-6 text-white/60 text-lg">
+          <div className="flex items-start gap-6 text-white/60 text-lg ">
             <a href="#" className="hover:text-white transition">X</a>
             <a href="#" className="hover:text-white transition">in</a>
             <a href="#" className="hover:text-white transition">f</a>
