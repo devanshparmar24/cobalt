@@ -1,8 +1,8 @@
 "use client";
 
-export default function Button() {
+export default function Button({children = "Get Started"}) {
   return (
-    <button className="relative w-[136px] h-[36px] hover:-translate-y-1 rounded-full bg-[rgba(9,9,11,1)] overflow-hidden group transition">
+    <button  className="relative w-[136px] h-[36px] hover:-translate-y-1 rounded-full bg-[rgba(9,9,11,1)] overflow-hidden group transition">
       
       {/* Subtle border */}
       <div className="absolute inset-0 rounded-full border border-white/10" />
@@ -14,7 +14,7 @@ export default function Button() {
 
       {/* Text */}
       <span className="relative z-10 text-white/70 text-sm font-medium">
-        Join the waitlist
+        {children}
       </span>
     </button>
   );

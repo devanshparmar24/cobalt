@@ -20,7 +20,7 @@ export default function Navbar() {
             Blog
           </Link>
 
-          <Button />
+          <Button children={"Join the waitlist"} />
         </div>
 
       </div>

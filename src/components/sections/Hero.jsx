@@ -45,7 +45,7 @@ export default function Hero() {
         {/* CTA */}
 
         <div className="mt-10 flex flex-col items-center gap-6">
-          <Button />
+          <Button children={"Join the waitlist"} />
           <div className="flex flex-col items-center text-white/50 hover:text-white/90 text-sm">
             <span>Learn more</span>
             <motion.span
