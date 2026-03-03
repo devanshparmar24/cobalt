@@ -17,7 +17,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 ## About Project
 - The project is built with assignment perspective
 - Used additional libraries
-  ## Addtional Libraries:
+  # Addtional Libraries:
   - lucide-react
   - framer-motion
 
@@ -25,11 +25,23 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Additional qualities
 
-- Created seperate components for FeatureCard and Button
+- Created seperate components for 
+  - FeatureCard - for reusing card wherever required
+  - Button - resuing button and accepts children for button content and scroll function
+  - Form - To improve readability in CTF section
+  - ScrollToContact - Scrolling effect applied on button "Join the waitlist"
+  
 - Difference is visible between the targeted assignment project and the achieved result, but very similar 
+
 - Added extra sections which were not included in the given target
     - Pricing section
     - Email section in CTC section above footer
+
 - Minimal added animations like:
     - Pulse effect on button's bottom gradient line
     - Hero section's Head tag
+
+- Smooth scrolling when 'Join the waitlist' button is clicked
+
+## Live preview
+- Click here to see the live demo -> [https://cobalt-depo.vercel.app](https://cobalt-depo.vercel.app)
