@@ -6,7 +6,7 @@ export default function FeatureCard({
   title,
   description,
   colSpan = "md:col-span-2",
-  imageHeight = "h-44 md:h-40",
+  imageHeight = "h-44 sm:h-48 md:h-52",
   className = "",
 }) {
   return (
@@ -14,7 +14,7 @@ export default function FeatureCard({
       className={`${colSpan} bg-gradient-to-b from-[#000000] to-[#00000010] 
                   rounded-2xl p-6 border border-white/5 
                   hover:border-white/10 transition 
-                  flex flex-col ${className}`}
+                  flex flex-col h-full min-h-0 ${className}`}
     >
       {/* Image */}
       <div className={`${imageHeight} mb-6 overflow-hidden rounded-xl`}>
@@ -28,7 +28,7 @@ export default function FeatureCard({
       </div>
 
       {/* Title */}
-      <h3 className="text-lg font-medium">
+      <h3 className="text-lg font-semibold tracking-tight">
         {title}
       </h3>
 

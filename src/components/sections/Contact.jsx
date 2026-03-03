@@ -2,7 +2,7 @@
 import Form from "../ui/Form";
 export default function Contact() {
   return (
-    <section id="contact" className="relative bg-[#09090B] pt-32 pb-24 overflow-hidden">
+    <section id="contact" className="relative bg-[#09090B] pt-20 sm:pt-28 md:pt-32 pb-16 sm:pb-20 md:pb-24 overflow-hidden">
 
       {/* Subtle dashboard glow */}
 
@@ -10,13 +10,13 @@ export default function Contact() {
 
         <div className="w-40 h-px bg-white/10 mx-auto mb-16" />
 
-        <h2 className="text-4xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-[#F4F4F5] to-[#52525B] bg-clip-text text-transparent">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-[#F4F4F5] to-[#52525B] bg-clip-text text-transparent">
           See where financial automation can
-          <br />
+          <br className="hidden sm:block"/>
           take your business.
         </h2>
 
-        <p className="mt-6 text-white/60">
+        <p className="mt-6 text-white/60 max-w-2xl mx-auto">
           The first financial tool you'll love. And the last one you'll ever need.
         </p>
 

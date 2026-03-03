@@ -4,14 +4,14 @@ import { X, Facebook, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="relative bg-[#09090B] pb-20 ">
+    <footer className="relative bg-[#09090B] pt-16 sm:pt-20 pb-16 sm:pb-20 ">
 
       {/* Divider Line */}
       <div className="max-w-7xl mx-auto px-6">
         <div className="border-t border-white/10" />
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 mt-10 mb-[129px]">
+      <div className="max-w-7xl mx-auto px-6 mt-10 mt-10 mb-16 sm:mb-24 md:mb-32">
 
         {/* Top Row */}
         <div className="flex flex-col md:flex-row justify-between gap-8">
@@ -19,7 +19,7 @@ export default function Footer() {
           {/* Left Content */}
           <div className="text-sm text-white/60 space-y-4 max-w-2xl">
 
-            <div className="flex flex-wrap gap-6 text-white/70">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-6 text-white/70">
               <span>© 2023 Cobalt Financial Technologies Inc.</span>
               <a href="#" className="hover:text-white transition">
                 Privacy Policy
@@ -45,7 +45,7 @@ export default function Footer() {
           </div>
 
           {/* Social Icons */}
-          <div className="flex items-start gap-6 text-white/60 text-lg ">
+          <div className="flex items-center justify-center md:justify-end gap-6 text-white/60 ">
             <a href="#" className="hover:text-white transition"> <X size={16}/> </a>
             <a href="#" className="hover:text-white transition"> <Facebook size={16}/> </a>
             <a href="#" className="hover:text-white transition"> <Linkedin size={16} /> </a>

@@ -2,11 +2,11 @@ import Button from "../ui/Button";
 
 export default function Pricing() {
   return (
-    <section className="relative bg-[#09090B] py-32">
+    <section className="relative bg-[#09090B] py-20 sm:py-24 md:py-32">
       <div className="max-w-7xl mx-auto px-6 text-center">
 
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">
           Simple pricing
         </h2>
 
@@ -15,7 +15,7 @@ export default function Pricing() {
         </p>
 
         {/* Pricing Cards */}
-        <div className="grid md:grid-cols-3 gap-8 mt-20">
+        <div className="grid md:grid-cols-3 gap-6 sm:gap-8 mt-20">
 
           {[
             { name: "Starter", price: "$19" },
@@ -47,7 +47,7 @@ export default function Pricing() {
                 {plan.name}
               </h3>
 
-              <p className="mt-6 text-4xl font-semibold tracking-tight">
+              <p className="mt-6 text-3xl sm:text-4xl font-semibold tracking-tight">
                 {plan.price}
               </p>
 
@@ -61,7 +61,7 @@ export default function Pricing() {
                 <li>✓ Priority support</li>
               </ul>
 
-              <div className="mt-10">
+              <div className="mt-10 text-3xl sm:text-4xl">
                 <Button variant={i === 1 ? "primary" : "secondary"}>
                   Get Started
                 </Button>

@@ -6,7 +6,7 @@ import { ScrollToContact } from "../ui/ScrollToContact";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#09090B]">
+    <section className="relative min-h-[90vh] sm:min-h-screen flex items-center justify-center overflow-hidden bg-[#09090B]">
 
       {/* Base */}
       <div className="absolute inset-0 bg-[#09090B]" />
@@ -29,15 +29,15 @@ export default function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className=" text-[72px] leading-[77px] tracking-[-1.8px] font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-[#717A86]"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-[72px] leading-tight lg:leading-[77px] tracking-tight lg:tracking-[-1.8px] font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-[#717A86]"
         >
           Unleash the power of
-          <br />
+          <br className="hidden sm:block" />
           intuitive finance
         </motion.h1>
 
         {/* Paragraph */}
-        <p className="mt-8 text-lg md:text-xl text-white/60 leading-relaxed max-w-3xl mx-auto">
+        <p className="mt-8 text-base sm:text-lg md:text-xl text-white/60 leading-relaxed max-w-3xl mx-auto">
           Say goodbye to the outdated financial tools. Every small business owner,
           regardless of the background, can now manage their business like a pro.
           Simple. Intuitive. And never boring.

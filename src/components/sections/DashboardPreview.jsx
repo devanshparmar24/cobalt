@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function DashboardPreview() {
   return (
-    <section className="relative bg-[#09090B] pb-32">
+    <section className="relative bg-[#09090B] pb-20 sm:pb-28 md:pb-32">
 
       {/* Dashboard Image */}
       <div className="max-w-7xl mx-auto px-6">
@@ -21,17 +21,17 @@ export default function DashboardPreview() {
       </div>
 
       {/* Text Section Below */}
-      <div className="max-w-7xl mx-auto px-6 mt-56 grid md:grid-cols-2 gap-12 items-start">
+      <div className="max-w-7xl mx-auto px-6 mt-16 sm:mt-24 md:mt-40 lg:mt-56 grid md:grid-cols-2 gap-12 items-start">
         
         {/* Left Heading */}
-        <h2 className="text-5xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">
           Who said finance has to
-          <br />
+          <br className="hidden sm:block" />
           be boring?
         </h2>
 
         {/* Right Paragraph */}
-        <p className="text-white/60 leading-relaxed">
+        <p className="text-white/60 leading-relaxed max-w-lg">
           With Cobalt, managing your business finances is effortless,
           empowering, and anything but boring. Our intuitive platform brings
           clarity to your cash flow, simplifies your financial decision-making,

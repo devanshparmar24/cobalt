@@ -1,14 +1,14 @@
 import FeatureCard from "../ui/FeatureCard";
 export default function Feature1() {
   return (
-    <section className="bg-[#09090B] py-32">
+    <section className="bg-[#09090B] py-20 sm:py-28 md:py-32">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Heading */}
         <div className="max-w-xl">
-          <h2 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">
             Everything you need.
-            <br />
+            <br className="hidden sm:block"/>
             Nothing you don’t.
           </h2>
 
@@ -19,7 +19,7 @@ export default function Feature1() {
         </div>
 
         {/* Bento Grid */}
-        <div className="mt-20 grid grid-cols-1 md:grid-cols-6 gap-6">
+        <div className="mt-14 sm:mt-16 md:mt-20 grid grid-cols-1 md:grid-cols-6 gap-6 auto-rows-fr">
 
           <FeatureCard
             image="/img2.png"
