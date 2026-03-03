@@ -20,7 +20,7 @@ function Form() {
 
     {/* Button */}
     <div className="ml-2">
-      <Button />
+      <Button children='Submit' />
     </div>
   </form>
   )
