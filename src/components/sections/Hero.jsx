@@ -8,9 +8,9 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#050B14]">
 
       {/* Base */}
-<div className="absolute inset-0 bg-[#09090B]" />
+      <div className="absolute inset-0 bg-[#09090B]" />
 
-<div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(94,176,239,0.45)_3%,_rgba(9,9,9,0)_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(94,176,239,0.3)_3%,_rgba(9,9,9,0)_55%)]" />
       {/* Star particles */}
       <div className="absolute inset-0 opacity-40">
         <div className="absolute w-1 h-1 bg-white rounded-full top-1/4 left-1/3" />
@@ -43,11 +43,22 @@ export default function Hero() {
         </p>
 
         {/* CTA */}
+
         <div className="mt-10 flex flex-col items-center gap-6">
           <Button />
-          <div className="flex flex-col items-center text-white/50 text-sm">
+          <div className="flex flex-col items-center text-white/50 hover:text-white/90 text-sm">
             <span>Learn more</span>
-            <span className="mt-0 text-lg">↓</span>
+            <motion.span
+              animate={{ y: [0, 6, 0] }}
+              transition={{
+                duration: 1.8,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+              className="mt-1 text-lg"
+            >
+              ↓
+            </motion.span>
           </div>
         </div>
       </div>

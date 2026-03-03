@@ -21,10 +21,10 @@ export default function DashboardPreview() {
       </div>
 
       {/* Text Section Below */}
-      <div className="max-w-6xl mt-[222px]  mx-auto px-6 mt-24 grid md:grid-cols-2 gap-12 items-start">
+      <div className="max-w-6xl mx-auto px-6 mt-56 grid md:grid-cols-2 gap-12 items-start">
         
         {/* Left Heading */}
-        <h2 className="text-5xl font-semibold tracking-tight  bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">
+        <h2 className="text-5xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">
           Who said finance has to
           <br />
           be boring?
