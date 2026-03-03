@@ -2,7 +2,7 @@
 import Form from "../ui/Form";
 export default function Contact() {
   return (
-    <section className="relative bg-[#09090B] pt-32 pb-24 overflow-hidden">
+    <section id="contact" className="relative bg-[#09090B] pt-32 pb-24 overflow-hidden">
 
       {/* Subtle dashboard glow */}
 
