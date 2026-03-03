@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         className={`${inter.className} text-white min-h-screen relative overflow-x-hidden`}
       >
         {/* Base Dark Background */}
-        <div className="fixed inset-0 -z-20 bg-[#050B14]" />
+        <div className="fixed inset-0 -z-20 bg-[#09090B]" />
 
         {/* Top Glow */}
         <div className="fixed top-[-200px] left-1/2 -translate-x-1/2 w-[1200px] h-[600px] bg-[#0E2A47] opacity-40 blur-[160px] rounded-full -z-10" />
